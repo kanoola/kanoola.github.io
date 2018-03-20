@@ -107,7 +107,12 @@
                         translations: {
                                 en: {submitText: "Request a demo"  }
                               },
-                        submitButtonClass: "btn btn-primary text-uppercase center-block hitSubmit"
+                        submitButtonClass: "btn btn-primary text-uppercase center-block hitSubmit",
+                            onFormSubmit: function($form) {
+	var el = document.getElementsByClassName("slide-6");
+	el.remove();
+	
+}
                         });
                     </script>
                 </div>
