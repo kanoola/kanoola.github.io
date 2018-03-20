@@ -310,7 +310,7 @@ input[type=submit] {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     margin-top: 60%;
-    text-align: center; 
+    text-align: left !important; 
     color: white;
     margin: 0 auto;
 
