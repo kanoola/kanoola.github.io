@@ -96,6 +96,7 @@ slideUp
 
 @keyframes slideUp {
 	0% {
+		opacity: 0;
 		transform: translateY(100%);
 	}
 	50%{
@@ -111,12 +112,14 @@ slideUp
 		transform: translateY(2%);
 	}			
 	100% {
+		opacity: 1;
 		transform: translateY(0%);
 	}	
 }
 
 @-webkit-keyframes slideUp {
 	0% {
+			opacity: 0;
 		-webkit-transform: translateY(100%);
 	}
 	50%{
@@ -132,6 +135,7 @@ slideUp
 		-webkit-transform: translateY(2%);
 	}			
 	100% {
+		opacity: 1;
 		-webkit-transform: translateY(0%);
 	}	
 }
