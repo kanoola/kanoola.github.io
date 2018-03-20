@@ -90,7 +90,7 @@ slideUp
 
 	animation-timing-function: ease;	
 	-webkit-animation-timing-function: ease;
-
+animation-fill-mode: forwards;
 	visibility: visible !important;			
 }
 
