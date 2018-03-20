@@ -1,6 +1,6 @@
 .input {
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
     
 }
 .overlay {
