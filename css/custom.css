@@ -26,6 +26,7 @@
 }
 .masthead .masthead-bg {
     background-color: #4385f6;
+    opacity:.8;
 }
 .mb-3 {
     font-family: 'Montserrat', sans-serif !important;
