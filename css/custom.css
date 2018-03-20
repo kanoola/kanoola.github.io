@@ -224,7 +224,7 @@
     display: inline-block;
     width:450px;
 }
-.slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .logo, .hbspt-form {
+.slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .logo, .hbspt-form, .slideUp {
     opacity: 0;
 }
 body {
