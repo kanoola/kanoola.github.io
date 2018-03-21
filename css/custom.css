@@ -371,6 +371,17 @@ input[type=submit] {
         display: block;
    }
 }
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .ipad-portrait { 
+      
+      
+      color: red; }
+}
+
+
 .keepContainer {
     height: 208px;
 }
+
+
