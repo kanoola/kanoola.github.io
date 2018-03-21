@@ -295,7 +295,7 @@ li {
 input[type=submit] {
     margin-top: 25px;
     margin-bottom:25px;
- 
+ margin-left:4px;
 }
 .inputs-list {
     margin-bottom: 0px !important;
@@ -365,7 +365,7 @@ input[type=submit] {
         right: 30px;
    }
     input[type=submit]  {
-        margin-left: 4px;
+        margin: 0 auto;
     }
     .fifthSlide {
         position: absolute;
