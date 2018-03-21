@@ -1,0 +1,71 @@
+     [  {
+            "logo": "./images/logo.png",
+            "jobTitle": "Cook",
+            "employer": "Tim Hortons",
+            "location": "Thunder Bay, ON",
+            "jobLink": "#",
+            "type": "Hospitality & Restaurant",
+            "class":"Full Time",
+            "datePosted": "January 17th",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar convallis tortor, vitae rhoncus nunc sodales vel. Nam fringilla sapien sed arcu rutrum, et ornare dui posuere. Aenean aliquam porta erat, a venenatis dui porta eu..."
+        },
+        {
+            
+            "logo": "./images/logo.png",
+            "jobTitle": "Cashier",
+            "employer": "Tim Hortons",
+            "location": "Thunder Bay, ON",
+            "jobLink": "#",
+            "type": "Management & Exec",
+            "class":"Full Time",
+            "datePosted": "January 17th",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar convallis tortor, vitae rhoncus nunc sodales vel. Nam fringilla sapien sed arcu rutrum, et ornare dui posuere. Aenean aliquam porta erat, a venenatis dui porta eu..."
+        },
+        {
+            "logo": "./images/logo.png",
+            "jobTitle": "Salesperson",
+            "employer": "Staples",
+            "location": "Thunder Bay, ON",
+            "jobLink": "#",
+            "type": "Retail",
+            "class":"Full Time",
+            "datePosted": "January 17th",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar convallis tortor, vitae rhoncus nunc sodales vel. Nam fringilla sapien sed arcu rutrum, et ornare dui posuere. Aenean aliquam porta erat, a venenatis dui porta eu..."
+        },
+        {
+            
+            "logo": "./images/logo.png",
+            "jobTitle": "Software Developer",
+            "employer": "Microsoft",
+            "location": "Thunder Bay, ON",
+            "jobLink": "#",
+            "type": "Information Technology",
+            "class":"Part Time",
+            "datePosted": "January 17th",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar convallis tortor, vitae rhoncus nunc sodales vel. Nam fringilla sapien sed arcu rutrum, et ornare dui posuere. Aenean aliquam porta erat, a venenatis dui porta eu..."
+        },
+        {
+            
+            "logo": "./images/logo.png",
+            "jobTitle": "Doctor",
+            "employer": "Thunder Bay Regional Hospital",
+            "location": "Thunder Bay, ON",
+            "jobLink": "#",
+            "type": "Healthcare",
+            "class":"Part Time",
+            "datePosted": "January 17th",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar convallis tortor, vitae rhoncus nunc sodales vel. Nam fringilla sapien sed arcu rutrum, et ornare dui posuere. Aenean aliquam porta erat, a venenatis dui porta eu..."
+        },
+        {
+            
+            "logo": "./images/logo.png",
+            "jobTitle": "Accountant",
+            "employer": "Greedy Corp.",
+            "location": "Thunder Bay, ON",
+            "jobLink": "#",
+            "type": "Accounting & Finance",
+            "class":"Part Time",
+            "datePosted": "January 17th",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar convallis tortor, vitae rhoncus nunc sodales vel. Nam fringilla sapien sed arcu rutrum, et ornare dui posuere. Aenean aliquam porta erat, a venenatis dui porta eu..."
+        }
+    ]

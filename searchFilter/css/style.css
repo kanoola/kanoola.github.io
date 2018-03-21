@@ -1,0 +1,166 @@
+body {
+    background-color: black;
+    background-size: cover;
+   
+}
+
+ul {
+    margin: 0px !important;
+    -webkit-margin-before: 0em !important;
+    -webkit-margin-after: 0em !important;
+    -webkit-margin-start: 0px !important;
+    -webkit-margin-end: 0px !important;
+    -webkit-padding-start: 0px !important;
+}
+
+#container {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+#map {
+    display: block;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+}
+
+.jobListing {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+#jobListing > table > tbody > tr:nth-child(1) > th {
+    background-color: #F4F4F4;
+}
+
+
+li a, td, th {
+    text-decoration: none !important;
+    color: white;
+    font-size: 16px;
+}
+
+.position {
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 30px;
+    font: normal 28px Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.svg-inline--fa {
+    margin-left: 100px !important;
+    font-size: 20px;
+    top: 20px;
+}
+
+.buttonTextFix {
+    bottom: 2px;
+    position: relative;
+}
+
+#test > tr > td > a > button {
+    border-radius: 18px;
+    border-style: solid !important;
+    border-color: #999 !important;
+    background-color: #999 !important;
+    color: white !important;
+    width: 177px;
+    text-transform: uppercase;
+    height: 35px;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    margin-right: 15px;
+}
+
+#selectLocation:hover {
+    background-color: #CD1818 !important;
+    border-color:  #CD1818 !important;
+}
+
+#myLocation:hover {
+    border-color:  #9e1313  !important;
+    background-color: #9e1313 !important;
+}
+
+
+#test > tr > td > button > a {
+    text-decoration: none !important;
+}
+
+tr {
+    width: 100% !important;
+    display: table;
+}
+
+td, th {
+    border-color: none;
+    border: none;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #F4F4F4 !important;
+}
+tr:nth-child(even):hover {
+    background-color: #ececec !important;
+
+}
+tr:nth-child(odd) {
+    background-color: #DBDBDB !important;
+}
+
+tr:nth-child(odd):hover {
+    background-color: #dfdfdf !important;
+}
+
+table {
+    border-collapse: collapse !important;
+    border-spacing: 0;
+    background-color: rgba(0,0,0,0) !important;
+    margin-bottom: 200px;
+}
+
+.logo img {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+}
+
+tbody {
+    overflow-y: scroll;
+}
+
