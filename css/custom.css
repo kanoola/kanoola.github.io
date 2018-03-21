@@ -250,11 +250,16 @@ body {
 .hs-error-msgs.inputs-list li>label {
     font-size: .8em;
     list-style: none;
-    display: none;
+
 }
 ul{
     -webkit-padding-start: 0px;
 }
+
+label {
+    margin-left: 4px;
+}
+
 li {
     list-style:none;
     display:none;
@@ -290,6 +295,7 @@ li {
 input[type=submit] {
     margin-top: 25px;
     margin-bottom:25px;
+    margin-left: 4px;
 }
 .inputs-list {
     margin-bottom: 0px !important;
