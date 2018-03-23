@@ -4,11 +4,10 @@
     thirdSlide();
     fourthSlide();
     fifthSlide();
-    sixthSlide();
 }
 
 function firstSlide() {
-
+    $(".slide-1").show();
     $(".slide-2").hide();
     $(".slide-3").hide();
     $(".slide-4").hide();
@@ -107,26 +106,14 @@ function fifthSlide() {
         $(".slide-5").animate({
             opacity: "0"
         }, 1000);
-        //setTimeout(function() {
-        // startSlides();
-        //}, 7000);
+        setTimeout(function() {
+        startSlides();
+       }, 7000);
     }, 28000);
 
 }
 
-function sixthSlide() {
-    setTimeout(function() {
-        $(".slide-5").hide();
-        $(".slide-6").show();
-        $(".slide-6").animate({
-            opacity: "1"
-        }, 1000);
+ 
 
 
-        //setTimeout(function() {
-        // startSlides();
-        //}, 7000);
-    }, 35000);
-
-}
 startSlides();
