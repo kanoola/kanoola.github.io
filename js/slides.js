@@ -120,7 +120,7 @@ function fifthSlide() {
 startSlides();
 
 //Sub Slides
-var subSlideOne = ['Save up to <strong>70%</strong> of your time and money in the hiring process with Intrideo automation',
+var subSlideOne = ['Save up to <strong>70%</strong> of your time and money in the hiring process with Intrideo automation.',
     'Assess soft skills with our <strong>20-second video introduction</strong> and experience fewer no-shows.',
     'View applications anytime, anywhere with our <strong>free app.</strong>',
     'Centralize your applicant flow from multiple sources in our <strong>easy-to-navigate</strong> dashboard.',
@@ -128,14 +128,14 @@ var subSlideOne = ['Save up to <strong>70%</strong> of your time and money in th
 ];
 
 var subSlideTwo = [
-    'The worlds first ever question-less personality and team-fit assessment that is completely subconscious.',
+    'The worlds <strong>first ever</strong> question-less personality and team-fit assessment that is completely subconscious.',
     'Determine the right fit every time for your team with our <strong>easy, one-click psychometric</strong> – no lengthy questionnaires required.',
     'Our <strong>cutting-edge technology</strong> is based on almost century-old research using unbiased responses which is unlike any other tool available today!'
 
 ];
 
 var subSlideThree = [
-    'Redirect your precious time by leveraging our AI and process-focussed recruitment solution which delivers qualified candidates ready-to-interview.',
+    'Redirect your precious time by leveraging our AI and process-focused recruitment solution which delivers qualified candidates <strong>ready-to-interview.</strong>',
     '<strong>Maintain exposure and control</strong> of your recruitment funnel at all times, while not having to worry about redundant tasks- our AI does all the heavy lifting!',
     '<strong>Clear your mind</strong> of the hassle and frustration of reading resumes and booking interview.'
 
