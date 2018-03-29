@@ -703,7 +703,7 @@ input[type=submit] {
         clear: left !important;
         width: 60% !important;
         bottom: 0;
-        height: 175px !important;
+        height: auto !important;
         z-index: 5;
     }
     .actions {
