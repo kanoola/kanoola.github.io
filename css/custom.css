@@ -51,7 +51,7 @@
 }
 
 .logo {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     z-index: 3;
 }
 
@@ -520,9 +520,9 @@
     float: right;
 }
 
-.timer {
-    display: inline-block;
-    width: 450px;
+.date {
+    display: inline;
+    margin-left: 5px;
 }
 
 .slide-1,
@@ -641,6 +641,7 @@ input[type=submit] {
 .hbspt-form {
     width: 350px;
     padding-left: 48px;
+    float: left;
 }
 
 .container {
@@ -697,22 +698,24 @@ input[type=submit] {
         margin: 0 auto;
         display: block;
     }
+    .webinar {
+        float: none !important;
+        clear: left !important;
+        width: 60% !important;
+        bottom: 0;
+        height: 175px !important;
+        z-index: 5;
+    }
+    .actions {
+        margin-bottom: 20px;
+    }
+    form {
+        margin-top: 60px !important;
+    }
 }
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    .ipad-portrait {
-        color: red;
-    }
-}
-
-.masthead .masthead-content p {
-    font-size: 1.1rem !important;
-}
-
-@media (min-width: 768px) {
-    .masthead .masthead-content p {
-        font-size: 1.1rem !important;
-    }
+    .ipad-portrait {}
 }
 
 .slide-1,
@@ -749,3 +752,20 @@ input[type=submit] {
     padding-right: 5px;
 }
 
+.webinar {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    font-family: montserrat;
+    font-size: 1em;
+    background: #4385f6;
+    margin: 0 auto;
+    color: white;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
