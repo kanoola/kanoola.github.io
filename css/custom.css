@@ -551,7 +551,8 @@ body {
     margin-bottom: 10px;
 }
 
-.hs-error-msgs.inputs-list li>label {
+.hs-error-msgs.inputs-list li>
+{
     font-size: .8em;
     list-style: none;
 }
@@ -562,7 +563,7 @@ ul {
 
 label {
     margin-left: 4px;
-    color:white;
+    color:white !important;
 }
 
 li {
