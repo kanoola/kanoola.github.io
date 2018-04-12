@@ -19,9 +19,9 @@
     background-color: #dc8100 !important;
     border-color: #dc8100 !important;
     border-width: 2px !important;
-    ;
+    
     color: white !important;
-    ;
+    
 }
 
 .form-control,
@@ -520,11 +520,6 @@
     float: right;
 }
 
-.date {
-    display: inline;
-    margin-left: 5px;
-}
-
 .slide-1,
 .slide-2,
 .slide-3,
@@ -540,8 +535,7 @@ body {
     display: none;
     background-image: url("../img/bg.jpg");
     background-size: cover;
-    background-position-y:-100px;
-    background-repeat: no-repeat;
+    background-position-y: -100px;
 }
 
 .followUs {
@@ -552,8 +546,7 @@ body {
     margin-bottom: 10px;
 }
 
-.hs-error-msgs.inputs-list li>
-{
+.hs-error-msgs.inputs-list li>label {
     font-size: .8em;
     list-style: none;
 }
@@ -564,7 +557,6 @@ ul {
 
 label {
     margin-left: 4px;
-    color:white !important;
 }
 
 li {
@@ -663,7 +655,7 @@ input[type=submit] {
 
 @media (min-width: 768px) {
     .masthead .masthead-content {
-        padding-left: 3rem;
+        padding-left: 3.3rem;
         padding-right: 6rem !important;
     }
 }
@@ -702,14 +694,6 @@ input[type=submit] {
         margin: 0 auto;
         display: block;
     }
-    .webinar {
-        float: none !important;
-        clear: left !important;
-        width: 60% !important;
-        bottom: 0;
-        height: auto !important;
-        z-index: 5;
-    }
     .actions {
         margin-bottom: 20px;
     }
@@ -718,16 +702,15 @@ input[type=submit] {
     }
 }
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    .ipad-portrait {}
-}
-
 .slide-1,
 .slide-2,
 .slide-3,
 .slide-4,
 .slide-5,
 .slide-6 {
-    height: 220px;
+    height: 240px;
 }
 
+.masthead .masthead-content p {
+    font-size: 1.1em !important;
+}
