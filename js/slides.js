@@ -22,7 +22,7 @@ function firstSlide() {
     $(".slide-1").stop().animate({
         opacity: "1"
     }, 1000);
-    $(".slide-1").delay(21000);
+    $(".slide-1").delay(13000);
     $(".slide-1").animate({
         opacity: "0"
     }, 1000);
@@ -50,7 +50,7 @@ function secondSlide() {
         $(".slide-2").animate({
             opacity: "0"
         }, 1000); //add this
-    }, 23000); //add this should = next slides setTimeout
+    }, 15000); //add this should = next slides setTimeout
 }
 
 function thirdSlide() {
@@ -63,11 +63,11 @@ function thirdSlide() {
         $(".slide-3").animate({
             opacity: "1"
         }, 1000);
-        $(".slide-3").delay(5000);
+        $(".slide-3").delay(7000);
         $(".slide-3").animate({
             opacity: "0"
         }, 1000);
-    }, 30000); //equals this number
+    }, 22000); //equals this number
 }
 
 function fourthSlide() {
@@ -80,11 +80,11 @@ function fourthSlide() {
         $(".slide-4").animate({
             opacity: "1"
         }, 1000);
-        $(".slide-4").delay(10000);
+        $(".slide-4").delay(7500);
         $(".slide-4").animate({
             opacity: "0"
         }, 1000);
-    }, 37000);
+    }, 31000);
 }
 
 function fifthSlide() {
@@ -104,18 +104,17 @@ function fifthSlide() {
         setTimeout(function () {
             startSlides();
         }, 12000);
-    }, 49000);
+    }, 40500);
 
 }
 
 startSlides();
 
 //Sub Slides
-var subSlideOne = ['Save up to <strong>70%</strong> of your time and money in the hiring process with Intrideo automation',
-    'Assess soft skills with our <strong>20-second video introduction</strong> and experience fewer no-shows.',
-    'View applications anytime, anywhere with our <strong>free app.</strong>',
-    'Centralize your applicant flow from multiple sources in our <strong>easy-to-navigate</strong> dashboard.',
-    'Unlimited job postings, unlimited managers means <strong>relief</strong> to your recruitment budget.'
+var subSlideOne = ['Unlimited "Team Fit" assessments.',
+    'Unlimited managers.',
+    'Unlimited locations.',
+    'Applicant communication automation.'
 ];
 
 
@@ -128,24 +127,20 @@ function subSlides() {
         var div = $("<p id='subslide1'>" + subSlideOne[0] + "</p>").hide();
         $(this).replaceWith(div);
         $('#subslide1').fadeIn("slow");
-        $('#subslide1').delay(3500).fadeOut("slow", function () {
+        $('#subslide1').delay(4000).fadeOut("slow", function () {
             var div = $("<p id='subslide1'>" + subSlideOne[1] + "</p>").hide();
             $(this).replaceWith(div);
             $('#subslide1').fadeIn("slow");
-            $('#subslide1').delay(3500).fadeOut("slow", function () {
+            $('#subslide1').delay(1500).fadeOut("slow", function () {
                 var div = $("<p id='subslide1'>" + subSlideOne[2] + "</p>").hide();
                 $(this).replaceWith(div);
                 $('#subslide1').fadeIn("slow");
-                $('#subslide1').delay(3500).fadeOut("slow", function () {
+                $('#subslide1').delay(1500).fadeOut("slow", function () {
                     var div = $("<p id='subslide1'>" + subSlideOne[3] + "</p>").hide();
                     $(this).replaceWith(div);
                     $('#subslide1').fadeIn("slow");
-                    $('#subslide1').delay(3500).fadeOut("slow", function () {
-                        var div = $("<p id='subslide1'>" + subSlideOne[4] + "</p>").hide();
-                        $(this).replaceWith(div);
-                        $('#subslide1').fadeIn("slow");
+              
 
-                    });
                 });
 
             });
