@@ -114,7 +114,7 @@ startSlides();
 var subSlideOne = ['Unlimited "Team Fit" assessments.',
     'Unlimited managers.',
     'Unlimited locations.',
-    'Applicant communication automation.'
+    'Unlimited applicants.'
 ];
 
 
